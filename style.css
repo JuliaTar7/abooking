@@ -1,0 +1,144 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+.navbar{
+    top:0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    background-color:rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+}
+.logo{
+    padding: 10px;
+    margin-left: 6%;
+}
+.nav{
+    float: right;
+    padding: 35px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+}
+
+h1{
+    margin: 20px 0;
+    font-weight: 500;
+    text-shadow: gray 0 0 10px;
+    font-family: monospace;
+    border-bottom: 2px solid #ffffff;
+    width:30%;
+    display:inline-block;
+    padding-bottom: 10px;
+    padding: 90px;
+
+}
+h2{
+    margin: 50px ;
+    text-shadow: gray 0 0 10px;
+    color:#ffffff;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    
+}
+.head-calendar{
+    margin: 40px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 45px;
+   
+}
+.calendar{
+    font-size:30px;
+    color:#ffffff;
+    text-align: center;
+    text-shadow: gray 0 0 10px;
+   
+}
+.calendar__month table{
+   margin: 50px auto;
+   width: 50%;
+   height: 300px;
+   
+   
+}
+td,th{
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.5s ease-out;
+}
+td:hover{
+    background-color: #5684c0;
+}
+.Head-table th{
+    padding: 10px 30px;
+    background-color: #7a88dabd;
+    color: #ffffff;
+}
+.modal{
+    width:500px;
+    height: 500px;
+    box-shadow:0px 0px 19px 0px rgba(41, 50, 50, 0.75);
+    background-color: #ffffff;
+    margin: 10px auto;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 1;
+}
+.modal-window > h2{
+    font-size: 24px;
+    color: #000000;
+    margin-top: 10px;
+}
+.cost-booking{
+    margin-top: 40px;
+}
+.Form{
+    width: 50%;
+    margin: 10px auto;
+}
+.Form > input[type = "time"]{
+    width: 200px;
+}
+.Form > input[type = "time"] ~ input{
+    width: 200px;
+    margin: 10px 0;
+}
+button{
+    width:205px;
+    height: 30px;
+    margin-bottom: 180px;
+    background: #ffffff;
+    border:2px solid #000000;
+}
+.close{
+    width:205px;
+    height: 30px;
+    margin-bottom: 50px;
+    background: rgb(119, 116, 116);
+    color:white;
+    border:1px solid #000000;
+    cursor: pointer;
+}

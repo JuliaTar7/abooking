@@ -1,0 +1,8 @@
+{
+	"name":"SergeiDubinka",
+	"age": "22",
+    "man":{
+        "one":"Man",
+        "two":"Woman"
+    }
+}
